@@ -1,0 +1,75 @@
+<!-- design a web page that implements a simple interest calculator using js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simpleInterest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Simple Interest Calculator</h1>
+      <div id="box">
+        <form>
+          <label style="font-size: 25px">Principal(₹):</label>
+          <br /><br />
+          <input
+            id="Principal"
+            type="number"
+            style="
+              height: 25px;
+              width: 250px;
+              font-size: 20px;
+              text-align: center;
+            "
+            value="0"
+          />
+          <br /><br />
+          <label style="font-size: 25px">Rate(%):</label>
+          <br /><br />
+          <input
+            id="Rate"
+            type="number"
+            style="
+              height: 25px;
+              width: 250px;
+              font-size: 20px;
+              text-align: center;
+            "
+            value="0"
+          />
+          <br /><br />
+          <label style="font-size: 25px">Time(t):</label>
+          <br /><br />
+          <input
+            id="Time"
+            type="number"
+            style="
+              height: 25px;
+              width: 250px;
+              font-size: 20px;
+              text-align: center;
+            "
+            value="0"
+          />
+        </form>
+        <br /><br />
+        <button id="btn" style="height: 40px; width: 130px; font-size: 20px">
+          Calculate
+        </button>
+        <button
+          id="reset"
+          style="height: 40px; width: 130px; font-size: 20px; margin-left: 30px"
+        >
+          Reset
+        </button>
+        <br /><br />
+        <h2>Your Simple Interest is:</h2>
+        <p style="font-size: 30px" id="simple"></p>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
